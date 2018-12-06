@@ -15,7 +15,8 @@ In case you wish to run the models again, either use a different name for the tr
 
 ## Sample Output
 
-Samples of generated data can be found in the `train` and `train_large` directory.
+Samples of generated data can be found in the `train`, `train_large`, and `train_large_discriminator` directory.
 
 The `train` directory contains results from a small model trained over 6 epochs. The `train_large` directory
-contains results from a large model trained over 126 epochs.
+contains results from a large model trained over 126 epochs. The `train_large_discriminator` contains results from
+a similar model to `train_large` except for a larger discriminator model (500 hidden units, 3 layer LSTM cells)
